@@ -1,2 +1,2 @@
 # odin-recipes
-what am I doing
+Creating thoughtful workflow for recipes
