@@ -44,3 +44,13 @@ a {
     border: 30px solid purple;
     margin: 50px;
 }
+
+.flex-container {
+    display: flex;
+  }
+
+  .flex-container div {
+    background: black;
+    height: 200px;
+    flex: 1;
+  }
