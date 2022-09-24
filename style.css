@@ -4,10 +4,12 @@ body {
 }
 
 h1 { 
-    text-align: center;
     font-family: 'Helvetica Neue';
+    background-color: rgb(107, 104, 104);
     color: white;
     text-transform: uppercase;
+    font-size: 52px;
+    letter-spacing: 5px;
 }
 a {
     color:white;
@@ -41,16 +43,28 @@ a {
     padding: 10px;
     height: 100px;
     width: 100px;
-    border: 30px solid purple;
-    margin: 50px;
+    border-radius: 1.5rem;
+    border: 1px solid purple;
+
 }
 
 .flex-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
   }
 
-  .flex-container div {
+  .div {
     background: black;
-    height: 200px;
-    flex: 1;
+    height: 150px;
+    flex: 1 1 auto;
   }
+  .flex-container .two {
+    background: rgb(186, 14, 14);
+    height: 150px;
+    flex: 1 0 auto;
+
+  }
+
